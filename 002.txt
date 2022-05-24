@@ -1,0 +1,16 @@
+semantic markup
+-----------------
+manager
+	1. d:/team_project  index.html를 add, commit, push
+		<h1>Hello Manager</h1>
+	4. member가 작업하는 동안 manager도 작업을 했다(manager도 index.html을 변경)
+		<h1>이것도 매니저</h1>
+	5. 매니저가 자신이 작업한 것을 푸시하기 전에 매니저의 변경사항과 맴버의 변경사항을 합치자
+		git add .
+		git commit -m "메시지"		내 작업을 로컬에 저장
+		git pull origin master		서버의 변경사항과 내 변경사항을 병합
+mamber
+	2. d:/clone_project로 clone
+		git clone 주소 파일
+	3.index.html에 내용 추가 후 add, commit, push
+		<h3>Hello Member</h3>
