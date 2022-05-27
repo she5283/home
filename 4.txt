@@ -1,0 +1,5 @@
+urlencoded	-> user_id=spring
+json		-> {'user_id:'spring'}
+multipart		-> 파일 업로드
+표준
+https://hasaway1.github.io/quiz1/

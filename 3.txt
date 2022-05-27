@@ -1,0 +1,8 @@
+table의 semantic 태그
+	thead
+	tbody
+	tfoot
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+pageno는 13이고 pagesize는20이다를 urlencoded 형식으로 표현하시오
+
+www.naver.com?pageno=13&pagesize=20	urlencoded 형식
