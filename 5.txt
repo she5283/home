@@ -1,0 +1,23 @@
+css 레이아웃
+- 요소는 원래 위->아래, 좌->우로 배치
+-inline-block
+
+블록요소는 위->아래 인라인요소는 좌->우
+
+사진옆에 글자를 놓고싶으면 float:left right
+
+css hack
+
+layout
+inline-block : 버려
+float : 원래 목적대로 사용하자
+flex : 좌우, 위아래 배치
+position : 내가 원하는 임의의 위치에 가져다 놓자
+
+relative : 현재위치 기준 이동. 빈 공간 유지
+
+absolute : 부모 좌측상단 기준. 빈 공간 채운다.
+
+w3school font awesome
+font awesome 4.7
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
