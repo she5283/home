@@ -1,0 +1,31 @@
+1조 : 이종훈, 김주호, 조준형, 강수민, 장규호, 어수경
+
+
+문서	 :	내용
+document	metadata -> markup 언어 -> element { tag		    { xml
+		~에 대한				{ content		=>
+						{ 속성(attribute)	    { html 
+
+html : 표준 tag, 속성				   (검증)
+					=>	 DTD 문서	<= <!DOCTYPE	
+xml  : 정해진 tag, 속성 X (데이터 구조, 형식) 		검증용 문서
+예) <학생 이름="홍길동" 나이="20"/>
+
+
+통신규약 : protocol로 구성
+"네트워크는 수많은 protocol로 구성" -> 인터넷 	{ TCP : IP를 이용해 실제 통신
+
+					{ IP   : 인터넷을 사용하기 위한 번호(203.253.146.184)
+						IP 주소
+
+	http	 web
+      web 규약 <-> 서비스 이름
+	도로 <=> 택배
+
+자원( resource) : html,css .....				html 엔티티 코드( 특수문자)
+
+inline : content의 너비만큼 -> width X
+block : 한줄에 하나 -> width O ->margin auto
+
+안보이게 하기 : visibility: hidden;
+없애기 : display: none;
